@@ -219,4 +219,3 @@ __marimo__/
 # SIF project data/artifacts (kept local, not committed)
 data/external/
 data/processed/
-models/*.joblib

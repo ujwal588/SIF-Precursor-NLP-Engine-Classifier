@@ -128,6 +128,7 @@ def render_screen(model):
     st.markdown('<div class="eyebrow">Report review · one narrative at a time</div>', unsafe_allow_html=True)
     st.subheader("Explore the wording and the model response")
     st.write("Submit a report to see literal hazard/control-gap phrases beside the historical severity comparison.")
+    st.markdown("<div class='notice'><b>Privacy:</b> This public demo processes report text in its hosted session. Do not enter worker names, employer-confidential details, or real sensitive incident reports.</div>", unsafe_allow_html=True)
     with st.form("report_review"):
         narrative = st.text_area("Incident narrative", height=150,
                                  placeholder="Describe the task, energy sources, safeguards, and what happened…")
