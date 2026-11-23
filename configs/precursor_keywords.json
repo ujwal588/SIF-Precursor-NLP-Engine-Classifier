@@ -1,0 +1,9 @@
+{
+  "Fall exposure": ["fell from", "fall from", "ladder", "scaffold", "roof", "elevated", "slipped and fell"],
+  "Energy-control failure": ["energized", "lockout", "unexpected start", "electrical contact", "power was on"],
+  "Vehicle or mobile equipment": ["forklift", "truck", "vehicle", "backed into", "mobile equipment"],
+  "Caught-in or struck-by hazard": ["caught between", "struck by", "crushed", "pinched", "falling object"],
+  "Hazardous atmosphere or exposure": ["chemical exposure", "inhaled", "toxic", "oxygen deficient", "burned by"],
+  "Lifting and ergonomics": ["lifting", "overexertion", "strained", "manual handling", "carrying"],
+  "Access, guarding, or housekeeping": ["unguarded", "missing guard", "blocked walkway", "trip", "slipped"]
+}

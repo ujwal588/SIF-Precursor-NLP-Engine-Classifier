@@ -1,0 +1,11 @@
+{
+  "Working at height": ["scaffold", "ladder", "fall from", "fell from", "elevated", "roof", "unguarded edge"],
+  "Confined space": ["confined space", "permit-required", "tank entry", "inside the vessel", "oxygen deficient"],
+  "Energy isolation": ["lockout", "tagout", "energized", "unexpected start", "not de-energized", "power was on"],
+  "Lifting operations": ["crane", "sling", "rigging", "suspended load", "hoist", "lifted by"],
+  "Driving": ["vehicle", "truck", "forklift", "backed into", "struck by vehicle", "roadway"],
+  "Line of fire": ["struck by", "caught between", "pinched", "crushed", "hit by", "falling object"],
+  "Hot work": ["welding", "cutting torch", "hot work", "ignition", "spark"],
+  "Safe mechanical lifting": ["manual lift", "lifting by hand", "overexertion", "strained while lifting"],
+  "Work authorization": ["permit", "procedure not followed", "authorization", "unplanned work"]
+}

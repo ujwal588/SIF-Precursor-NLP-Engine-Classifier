@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# SIF project data/artifacts (kept local, not committed)
+data/external/
+data/processed/
+models/*.joblib
