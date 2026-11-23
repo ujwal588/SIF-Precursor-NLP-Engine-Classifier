@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "description": "Transparent phrase matcher for explicit high-energy exposures and explicit control-gap statements. It does not infer safety from missing language and does not produce a probability.",
+  "categories": [
+    {
+      "name": "Work at height / fall energy",
+      "exposure_terms": ["working at height", "working from height", "roof", "scaffold", "ladder", "elevated platform", "unprotected edge", "fall protection"],
+      "control_gap_terms": ["without fall protection", "no fall protection", "harness was not connected", "not tied off", "guardrail was missing", "unguarded edge", "platform was unsecured"]
+    },
+    {
+      "name": "Electrical / stored energy",
+      "exposure_terms": ["energized", "live circuit", "electrical panel", "power line", "stored energy", "unexpected startup", "unexpected start"],
+      "control_gap_terms": ["not locked out", "lockout was not applied", "without lockout", "not de-energized", "unexpectedly energized", "guard was bypassed", "isolation was not verified"]
+    },
+    {
+      "name": "Mobile equipment / vehicle interaction",
+      "exposure_terms": ["forklift", "haul truck", "loader", "mobile equipment", "backing vehicle", "moving vehicle", "vehicle route", "pedestrian and vehicle"],
+      "control_gap_terms": ["no spotter", "without a spotter", "reverse alarm failed", "backup alarm failed", "pedestrian route was not separated", "blind spot was not controlled", "vehicle moved without warning"]
+    },
+    {
+      "name": "Lifting / suspended load",
+      "exposure_terms": ["suspended load", "overhead load", "crane lift", "lifting operation", "rigging", "hoisting", "load was being lifted"],
+      "control_gap_terms": ["person under suspended load", "workers beneath the load", "lifting zone was not barricaded", "rigging was not secured", "load shifted unexpectedly", "no exclusion zone"]
+    },
+    {
+      "name": "Confined space / hazardous atmosphere",
+      "exposure_terms": ["confined space", "oxygen deficient", "toxic atmosphere", "hazardous atmosphere", "flammable gas", "hydrogen sulfide", "h2s"],
+      "control_gap_terms": ["without atmospheric testing", "no gas test", "ventilation was not operating", "without a permit", "entrant was not monitored", "rescue plan was not in place", "alarm did not sound"]
+    },
+    {
+      "name": "Ground / collapse / caught-in energy",
+      "exposure_terms": ["unsupported ground", "unstable ground", "trench", "excavation", "roof fall", "ground movement", "caught between", "crushing zone"],
+      "control_gap_terms": ["unsupported roof", "ground support was missing", "without ground support", "trench was not shored", "person entered the line of fire", "exclusion zone was not maintained"]
+    }
+  ]
+}

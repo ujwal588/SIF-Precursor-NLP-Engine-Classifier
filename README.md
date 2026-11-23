@@ -27,6 +27,8 @@ This dataset does not contain Oil India HSSE near-miss/unsafe-condition labels. 
 
 The screen also includes a separate exact-phrase cue panel for high-energy exposures and explicit control-gap language; it never treats missing text as evidence of safety. See `docs/dataset_selection.md` for the source decision, `docs/research_landscape.md` for SIH 2026 and research comparisons, and `docs/sif_precursor_engine_research_paper.md` for the IEEE-style draft. `reports/` contains aggregate evaluation outputs. The downloaded MSHA archive stays local and is excluded from Git. A compact trained model artifact is included so the public demo can run inference immediately; the pre-existing OSHA SIR CSV remains a separate descriptive input.
 
-## Live deployment
+## GitHub Pages demo
 
-The Streamlit app entrypoint is `app.py`. The repository includes `models/msha_severity_proxy.joblib`, so report screening works after deployment without a training step. Deploy this repository, branch `main`, and file path `app.py` on [Streamlit Community Cloud](https://share.streamlit.io/). This is a research demo; do not paste confidential or identifiable incident reports into the public deployment.
+SIF Lens is published as a static site from `site/`. It runs fitted TF–IDF and logistic-regression inference in the visitor’s browser; narratives are not sent to a backend. Export browser model parameters with `python scripts/export_browser_model.py`. GitHub Actions deploys the `site/` directory on pushes to `main`.
+
+The Streamlit `app.py` remains available for local use. This is a research prototype and must not be used for operational safety decisions.
